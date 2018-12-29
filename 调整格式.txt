@@ -1,0 +1,230 @@
+id;
+resourceid;
+resourcename;
+registerorgcode;
+resorgname;
+targetcode;
+resourcetype;
+resourcetypedesc;
+bizcode;
+cataid;
+catatitle;
+sharedtype;
+sharedcondition;
+opentype;
+opencondition;
+resoursystemid;
+pubstatus;
+resourceopt;
+operatstat;
+createtime;
+lastmodifytime;
+remark;
+resourceVersion;
+updateCycle;
+toPlatform;
+attachment;
+countDown;
+reviseReason;
+errorCode;
+;
+;
+ID;
+RESOURCEID;
+RESOURCENAME;
+REGISTERORGCODE;
+RESORGNAME;
+TARGETCODE;
+RESOURCETYPE;
+RESOURCETYPEDESC;
+BIZCODE;
+CATAID;
+CATATITLE;
+SHAREDTYPE;
+SHAREDCONDITION;
+OPENTYPE;
+OPENCONDITION;
+RESOURSYSTEMID;
+PUBSTATUS;
+RESOURCEOPT;
+OPERATSTAT;
+CREATETIME;
+LASTMODIFYTIME;
+REMARK;
+RESOURCEVERSION;
+UPDATECYCLE;
+TOPLATFORM;
+ATTACHMENT;
+COUNTDOWN;
+REVISEREASON;
+ERRORCODE;
+
+private String id;
+private String resourceId;
+private String resourceName;
+private String registerOrgCode;
+private String resOrgName;
+private String targetCode;
+private String resourceType;
+private String resourceTypeDesc;
+private String bizCode;
+private String cataId;
+private String cataTitle;
+private String sharedType;
+private String sharedCondition;
+private String openType;
+private String openCondition;
+private String resourSystemId;
+private String pubStatus;
+private String resourceOpt;
+private String operatStat;
+private String createTime;
+private String lastModifyTime;
+private String remark;
+private String resourceVersion;
+private String updateCycle;
+private String toPlatform;
+private String attachment;
+private String countDown;
+private String reviseReason;
+private String errorCode;,
+,
+,
+varchar,
+varchar,
+varchar,
+varchar,
+varchar,
+varchar,
+int,
+text,
+varchar,
+varchar,
+varchar,
+int,
+varchar,
+int,
+varchar,
+varchar,
+int,
+int,
+int,
+timestamp,
+timestamp,
+varchar,
+varchar,
+varchar,
+varchar,
+int,
+int,
+varchar,
+varchar,
+,
+,
+,
+id
+resourceId,
+resourceName,
+registerOrgCode,
+resOrgName,
+targetCode,
+resourceType,
+resourceTypeDesc,
+bizCode,
+cataId,
+cataTitle,
+sharedType,
+sharedCondition,
+openType,
+openCondition,
+resourSystemId,
+pubStatus,
+resourceOpt,
+operatStat,
+createTime,
+lastModifyTime,
+remark,
+resourceVersion,
+updateCycle,
+toPlatform,
+attachment,
+countDown,
+reviseReason,
+errorCode,
+		,
+		,
+		,
+ID					varchar		VARCHAR,
+RESOURCE_ID			varchar     VARCHAR,
+RESOURCE_NAME		varchar     VARCHAR,
+REGISTER_ORG_CODE	varchar     VARCHAR,
+RES_ORG_NAME		varchar     VARCHAR,
+TARGET_CODE			varchar     VARCHAR,
+RESOURCE_TYPE		int			INTEGER ,
+RESOURCE_TYPE_DESC	text		VARCHAR,
+BIZ_CODE			varchar     VARCHAR,
+CATA_ID				varchar     VARCHAR,
+CATA_TITLE			varchar     VARCHAR,
+SHARED_TYPE			int			INTEGER,
+SHARED_CONDITION	varchar		VARCHAR,
+OPEN_TYPE			int			INTEGER,
+OPEN_CONDITION		varchar     VARCHAR,
+RESOUR_SYSTEM_ID	varchar     VARCHAR,
+PUB_STATUS			int			INTEGER,
+RESOURCE_OPT		int         INTEGER,
+OPERAT_STAT			int         INTEGER,
+CREATE_TIME			timestamp	TIMESTAMP,
+LAST_MODIFY_TIME	timestamp   TIMESTAMP,
+REMARK				varchar     VARCHAR,
+RESOURCE_VERSION	varchar     VARCHAR,
+UPDATE_CYCLE		varchar     VARCHAR,
+TO_PLATFORM			varchar     VARCHAR,
+ATTACHMENT			int         INTEGER,
+COUNT_DOWN			int         INTEGER,
+REVISE_REASON		varchar     VARCHAR,
+ERROR_CODE			varchar     VARCHAR,
+,
+,
+ID,RESOURCE_ID,RESOURCE_NAME,REGISTER_ORG_CODE,RES_ORG_NAME,TARGET_CODE,RESOURCE_TYPE,RESOURCE_TYPE_DESC,BIZ_CODE,CATA_ID,CATA_TITLE,SHARED_TYPE,SHARED_CONDITION,OPEN_TYPE,OPEN_CONDITION,RESOUR_SYSTEM_ID,PUB_STATUS,RESOURCE_OPT,OPERAT_STAT,CREATE_TIME,LAST_MODIFY_TIME,REMARK,RESOURCE_VERSION,UPDATE_CYCLE,TO_PLATFORM,ATTACHMENT,COUNT_DOWN,REVISE_REASON,ERROR_CODE,
+
+
+
+
+
+ID,RESOURCE_ID,RESOURCE_TYPE,FILE_SIZE,DATA_COUNT,FILE_PATH,FILE_SIGNATURE,COMPRESS,OPERAT_STAT,CREATE_TIME,EXPIRY_DATE,LAST_MODIFY_TIME,ERROR_CODE
+
+
+
+private String id;
+private String resourceId;
+private String resourceType;
+private String fileSize;
+private String dataCount;
+private String filePath;
+private String fileSignature;
+private String compress;
+private String operatStat;
+private String createTime;
+private String expiryDate;
+private String lastModifyTime;
+private String errorCode;
+
+
+id
+resourceId
+resourceType
+fileSize
+dataCount
+filePath
+fileSignature
+compress
+operatStat
+createTime
+expiryDate
+lastModifyTime
+errorCode
+
+{"entity":[{"id":"1bfef23f4341461db70802fa38464400","pubId":null,"pubName":null,"sourceCode":null,"targetCode":"ALL","type":null,"dataSchema":null,"bizCode":"0","catalogId":null,"status":null,"operatStat":"0","note":null,"createTime":1536065959000,"lastModifyTime":1545009976000,"errorCode":null,"dataDescs":[{"id":"2c72c344-0b27-43ac-85b9-cdab442a2672","resourceId":"rds_table_s_d754671523fc4fb48e71f58849383af8","resourceType":1,"secondFileSize":796,"secondDataCount":1,"secondCompress":1,"secondOperatStat":0,"secondCreateTime":1536216330000,"secondlastModifyTime":1536216330000,"mngId":null,"type":null,"fileSize":"796","dataCount":"1","filePath":"/opt/tong/data/e34ee4aec9c44a0398fd7c77964ed31ff34d52069d474ed99f3e04882fcf2e331a27d0f8cee149adaf92fb3b4cd7d070.dat.zip","compress":"1","targetCode":null,"operatStat":"0","createTime":1536216330000,"expiryDate":1,"lastModifyTime":1536216330000,"retryTimes":null,"erMsg":null,"erTime":null,"databaseName":null,"tableName":null,"targetUrl":null,"databaseType":null,"errorCode":null,"fileSignature":"8d930ade1b8c79cb474c68b74d75fb8b","fileName":null}],"resourceId":"rds_table_s_d754671523fc4fb48e71f58849383af8","resourceName":"国家部委1_下发江西福建贵州库表数据","registerOrgCode":"0c5030cc-d79e-40aa-b33e-fec7cd1ab182","resOrgName":"国家部委1","resourceType":1,"resourceTypeDesc":"{\"Table\":{\"name\":\"xiaxing_copy3\",\"type_name\":\"\",\"FieldList\":[{\"name\":\"id\",\"type\":\"4\",\"typelen\":\"25\",\"primarykey\":\"1\",\"nullable\":\"0\",\"comments\":\"id\"},{\"name\":\"name\",\"type\":\"12\",\"typelen\":\"255\",\"primarykey\":\"0\",\"nullable\":\"1\",\"comments\":\"name\"}]}}","cataId":"11b7c5e8f0414499bf5e228136354941","cataTitle":"部委下发山东数据","sharedType":0,"sharedCondition":"无1","openType":1,"openCondition":"无1","resourSystemId":"testSystem","pubStatus":null,"resourceOpt":1,"secondOperatStat":0,"secondCreateTime":1536065959000,"secondLastModifyTime":1545009911000,"remark":"1","resourceVersion":"1.0","updateCycle":"8","toPlatform":"province","attachment":0,"countDown":0,"reviseReason":""},{"id":"4c53f4cf495b412a92155e5c511b1920","pubId":null,"pubName":null,"sourceCode":null,"targetCode":"ALL","type":null,"dataSchema":null,"bizCode":"0","catalogId":null,"status":null,"operatStat":"0","note":null,"createTime":1534858109000,"lastModifyTime":1545009977000,"errorCode":null,"dataDescs":[{"id":"cd1f351c-d200-4d15-8e56-59e48b2b7174","resourceId":"f_0bac37bef4394969b709cdc9858d4ed7","resourceType":2,"secondFileSize":12,"secondDataCount":0,"secondCompress":0,"secondOperatStat":0,"secondCreateTime":1536306546000,"secondlastModifyTime":1536306546000,"mngId":null,"type":null,"fileSize":"12","dataCount":"0","filePath":"/opt/tong/data/111.txt","compress":"0","targetCode":null,"operatStat":"0","createTime":1536306546000,"expiryDate":1,"lastModifyTime":1536306546000,"retryTimes":null,"erMsg":null,"erTime":null,"databaseName":null,"tableName":null,"targetUrl":null,"databaseType":null,"errorCode":null,"fileSignature":"e09b4f6d8c11d9548b23ea10619accb5","fileName":null}],"resourceId":"f_0bac37bef4394969b709cdc9858d4ed7","resourceName":"国家部委1_下发文件","registerOrgCode":"0c5030cc-d79e-40aa-b33e-fec7cd1ab182","resOrgName":"国家部委1","resourceType":2,"resourceTypeDesc":"/home/tongtech/111.txt","cataId":"e7c6c5a6be22427490889639ed02adb8","cataTitle":"浪潮测试08071","sharedType":0,"sharedCondition":"测试","openType":1,"openCondition":"履职开放","resourSystemId":"testSystem","pubStatus":null,"resourceOpt":1,"secondOperatStat":0,"secondCreateTime":1534858109000,"secondLastModifyTime":1545009911000,"remark":"1","resourceVersion":"1.0","updateCycle":"8","toPlatform":"province","attachment":0,"countDown":0,"reviseReason":""},{"id":"5d7698bb559541139a2d7546febc5430","pubId":null,"pubName":null,"sourceCode":null,"targetCode":"ALL","type":null,"dataSchema":null,"bizCode":"0","catalogId":null,"status":null,"operatStat":"0","note":null,"createTime":1536071102000,"lastModifyTime":1545009977000,"errorCode":null,"dataDescs":[{"id":"18d7b93c-d1d3-4986-b38c-ae9f799648b3","resourceId":"f_075f6670116b4b53ad7bc545ef066a91","resourceType":2,"secondFileSize":9,"secondDataCount":0,"secondCompress":0,"secondOperatStat":1,"secondCreateTime":1536202319000,"secondlastModifyTime":1536202319000,"mngId":null,"type":null,"fileSize":"9","dataCount":"0","filePath":"/opt/tong/data/333.txt","compress":"0","targetCode":null,"operatStat":"1","createTime":1536202319000,"expiryDate":1,"lastModifyTime":1536202319000,"retryTimes":null,"erMsg":null,"erTime":null,"databaseName":null,"tableName":null,"targetUrl":null,"databaseType":null,"errorCode":null,"fileSignature":"b05a0422b32f3128a47aae6d61d1b0c2","fileName":null}],"resourceId":"f_075f6670116b4b53ad7bc545ef066a91","resourceName":"国家部委1_下发江西福建贵州文件","registerOrgCode":"0c5030cc-d79e-40aa-b33e-fec7cd1ab182","resOrgName":"国家部委1","resourceType":2,"resourceTypeDesc":"/home/333.txt","cataId":"11b7c5e8f0414499bf5e228136354941","cataTitle":"部委下发山东数据","sharedType":0,"sharedCondition":"无1","openType":1,"openCondition":"无1","resourSystemId":"testSystem","pubStatus":null,"resourceOpt":1,"secondOperatStat":0,"secondCreateTime":1536071102000,"secondLastModifyTime":1545009912000,"remark":"1","resourceVersion":"1.0","updateCycle":"8","toPlatform":"province","attachment":0,"countDown":0,"reviseReason":""},{"id":"862bc7015b7f45c89a14c7a5620b16f6","pubId":null,"pubName":null,"sourceCode":null,"targetCode":"ALL","type":null,"dataSchema":null,"bizCode":"0","catalogId":null,"status":null,"operatStat":"0","note":null,"createTime":1536226822000,"lastModifyTime":1545009977000,"errorCode":null,"dataDescs":[{"id":"63477a8d-a9f6-4742-a234-f64b5f245526","resourceId":"f_27f5049ddd5d4a7e8ee0e7dd830983c0","resourceType":4,"secondFileSize":35,"secondDataCount":0,"secondCompress":0,"secondOperatStat":1,"secondCreateTime":1536201964000,"secondlastModifyTime":1536201964000,"mngId":null,"type":null,"fileSize":"35","dataCount":"0","filePath":"/opt/tong/data/1111/987654.txt","compress":"0","targetCode":null,"operatStat":"1","createTime":1536201964000,"expiryDate":1,"lastModifyTime":1536201964000,"retryTimes":null,"erMsg":null,"erTime":null,"databaseName":null,"tableName":null,"targetUrl":null,"databaseType":null,"errorCode":null,"fileSignature":"18def15f285fbf379d3fee16c26ea44b","fileName":null}],"resourceId":"f_27f5049ddd5d4a7e8ee0e7dd830983c0","resourceName":"国家部委1_下发江西福建贵州文件夹","registerOrgCode":"0c5030cc-d79e-40aa-b33e-fec7cd1ab182","resOrgName":"国家部委1","resourceType":4,"resourceTypeDesc":"/home/test","cataId":"11b7c5e8f0414499bf5e228136354941","cataTitle":"部委下发山东数据","sharedType":0,"sharedCondition":"无1","openType":1,"openCondition":"无1","resourSystemId":"testSystem","pubStatus":null,"resourceOpt":4,"secondOperatStat":0,"secondCreateTime":1536226822000,"secondLastModifyTime":1545009912000,"remark":"1","resourceVersion":"1.0","updateCycle":"8","toPlatform":"province","attachment":0,"countDown":6,"reviseReason":"撤销测试"},{"id":"b2e789ddebb8495ab1450971e7db0943","pubId":null,"pubName":null,"sourceCode":null,"targetCode":"ALL","type":null,"dataSchema":null,"bizCode":"0","catalogId":null,"status":null,"operatStat":"0","note":null,"createTime":1534844404000,"lastModifyTime":1545009978000,"errorCode":null,"dataDescs":[{"id":"1d3faace-b771-4c5d-8561-73369aa344bd","resourceId":"f_84aa8783149c445e87bae44f15896540","resourceType":4,"secondFileSize":16,"secondDataCount":0,"secondCompress":0,"secondOperatStat":1,"secondCreateTime":1535680711000,"secondlastModifyTime":1535680711000,"mngId":null,"type":null,"fileSize":"16","dataCount":"0","filePath":"/opt/tong/data/1111/55555.txt","compress":"0","targetCode":null,"operatStat":"1","createTime":1535680711000,"expiryDate":1,"lastModifyTime":1535680711000,"retryTimes":null,"erMsg":null,"erTime":null,"databaseName":null,"tableName":null,"targetUrl":null,"databaseType":null,"errorCode":null,"fileSignature":"c41f838e3c1d6d98a24f48f31ad46703","fileName":null}],"resourceId":"f_84aa8783149c445e87bae44f15896540","resourceName":"国家部委1_北京下行文件夹测试","registerOrgCode":"0c5030cc-d79e-40aa-b33e-fec7cd1ab182","resOrgName":"国家部委1","resourceType":4,"resourceTypeDesc":"/home/ren","cataId":"209e9aa93e1e4b44871b1b35217fdd30","cataTitle":"浪潮测试08030306省平台测试","sharedType":0,"sharedCondition":"无测","openType":2,"openCondition":"","resourSystemId":"testSystem","pubStatus":null,"resourceOpt":1,"secondOperatStat":0,"secondCreateTime":1534844404000,"secondLastModifyTime":1545009912000,"remark":"1111","resourceVersion":"1.0","updateCycle":"8","toPlatform":"province","attachment":0,"countDown":0,"reviseReason":""},{"id":"d0a42fcd479d402eae589d99f973a56e","pubId":null,"pubName":null,"sourceCode":null,"targetCode":"ALL","type":null,"dataSchema":null,"bizCode":"0","catalogId":null,"status":null,"operatStat":"0","note":null,"createTime":1534858695000,"lastModifyTime":1545009978000,"errorCode":null,"dataDescs":[{"id":"222f7af1-c4be-46ec-a36f-d1357ce65e08","resourceId":"rds_table_s_96d10c70a2d3436c90741fce066948ae","resourceType":1,"secondFileSize":780,"secondDataCount":1,"secondCompress":1,"secondOperatStat":0,"secondCreateTime":1536216330000,"secondlastModifyTime":1536216330000,"mngId":null,"type":null,"fileSize":"780","dataCount":"1","filePath":"/opt/tong/data/d5f968ba763040d0b59c825d3793aa3b39ad1a5c9dfc4b2fbc69b7f8cc98913aa2ac857923c1496089941b515f8bad88.dat.zip","compress":"1","targetCode":null,"operatStat":"0","createTime":1536216330000,"expiryDate":1,"lastModifyTime":1536216330000,"retryTimes":null,"erMsg":null,"erTime":null,"databaseName":null,"tableName":null,"targetUrl":null,"databaseType":null,"errorCode":null,"fileSignature":"de950a5bcb179ec3952b1a8f12d6617f","fileName":null},{"id":"e8b98b55-fda1-4129-8b17-e91804a07750","resourceId":"rds_table_s_96d10c70a2d3436c90741fce066948ae","resourceType":1,"secondFileSize":789,"secondDataCount":1,"secondCompress":1,"secondOperatStat":1,"secondCreateTime":1536111432000,"secondlastModifyTime":1536111432000,"mngId":null,"type":null,"fileSize":"789","dataCount":"1","filePath":"/opt/tong/data/b8bfb52b3381459899218c076dda99369522ba58437f4f92a48f73088b268a4f398842f9099440efbd1fc09f0a1e4dee.dat.zip","compress":"1","targetCode":null,"operatStat":"1","createTime":1536111432000,"expiryDate":1,"lastModifyTime":1536111432000,"retryTimes":null,"erMsg":null,"erTime":null,"databaseName":null,"tableName":null,"targetUrl":null,"databaseType":null,"errorCode":null,"fileSignature":"4531f2497f12210d3c9d14ee2f3b8f06","fileName":null}],"resourceId":"rds_table_s_96d10c70a2d3436c90741fce066948ae","resourceName":"国家部委1_下发北京库表","registerOrgCode":"0c5030cc-d79e-40aa-b33e-fec7cd1ab182","resOrgName":"国家部委1","resourceType":1,"resourceTypeDesc":"{\"Table\":{\"name\":\"xiaxing\",\"type_name\":\"\",\"FieldList\":[{\"name\":\"name\",\"type\":\"12\",\"typelen\":\"255\",\"primarykey\":\"0\",\"nullable\":\"1\",\"comments\":\"name\"},{\"name\":\"id\",\"type\":\"4\",\"typelen\":\"25\",\"primarykey\":\"1\",\"nullable\":\"0\",\"comments\":\"id\"}]}}","cataId":"e7c6c5a6be22427490889639ed02adb8","cataTitle":"浪潮测试08071","sharedType":0,"sharedCondition":"测试","openType":1,"openCondition":"履职开放","resourSystemId":"testSystem","pubStatus":null,"resourceOpt":1,"secondOperatStat":0,"secondCreateTime":1534858695000,"secondLastModifyTime":1545009913000,"remark":"1","resourceVersion":"1.0","updateCycle":"8","toPlatform":"province","attachment":0,"countDown":0,"reviseReason":""}],"status":"SUCCESS","errorMessage":null}Time-consuming:2461
+
+
+{"SenderId":"C10-10000006","ServiceId":"S11-10000033","AuthorizeInfo":"56AA-C074-3A93-0523","EndUser":{"UserCardId":"123456789987654321","UserName":"张三","UserDept":"010000000000"},"Method":"GZ_GA_ZBTJ","Params":{"SenderID":"1","ServiceID":"2","EndUser":["1","2","3","4"],"condition":"<![CDATA[<?xml version='1.0' encoding='UTF-8'?><DATA><SJDM>5201</SJDM><HSLX>1</HSLX><QQXTDM>121</QQXTDM><QQXTMC>认证系统</QQXTMC><FWMC>户籍证明</FWMC></DATA>]]>"}}

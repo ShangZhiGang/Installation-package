@@ -229,3 +229,7 @@ errorCode
 
 {"SenderId":"C10-10000006","ServiceId":"S11-10000033","AuthorizeInfo":"56AA-C074-3A93-0523","EndUser":{"UserCardId":"123456789987654321","UserName":"张三","UserDept":"010000000000"},"Method":"GZ_GA_ZBTJ","Params":{"SenderID":"1","ServiceID":"2","EndUser":["1","2","3","4"],"condition":"<![CDATA[<?xml version='1.0' encoding='UTF-8'?><DATA><SJDM>5201</SJDM><HSLX>1</HSLX><QQXTDM>121</QQXTDM><QQXTMC>认证系统</QQXTMC><FWMC>户籍证明</FWMC></DATA>]]>"}}
 这是新修改的数据
+
+
+
+这又是一个条修改的数据
